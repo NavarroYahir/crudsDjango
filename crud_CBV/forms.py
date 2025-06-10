@@ -1,5 +1,5 @@
 from django import forms
-from .models import Cosa
+from crud_ninja.models import Cosa
 
 class CosaForm(forms.ModelForm):
     class Meta:
