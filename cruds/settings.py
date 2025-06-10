@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'crud_FBV',
-    'crud_CBV',
-    'crud_ninja',
+    'apps.crud_FBV',
+    'apps.crud_CBV',
+    'apps.crud_ninja',
     'ninja',
 ]
 

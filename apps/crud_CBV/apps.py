@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CrudNinjaConfig(AppConfig):
+class CrudCbvConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'crud_ninja'
+    name = 'apps.crud_CBV'

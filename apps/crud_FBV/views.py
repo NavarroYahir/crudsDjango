@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from crud_ninja.models import Cosa
-from .forms import CosaForm
+from apps.crud_ninja.models import Cosa
+from apps.crud_CBV.forms import CosaForm
 
 
 def listar_cosas(request):

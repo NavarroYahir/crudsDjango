@@ -1,5 +1,5 @@
 from ninja import Router
-from crud_ninja.models import Cosa
+from apps.crud_ninja.models import Cosa
 from .schemas import CosaIn, CosaOut
 from typing import List
 
