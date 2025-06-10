@@ -1,0 +1,15 @@
+<h1>Lista de Cosas</h1>
+<a href="{% url 'crear_cosa' %}">Crear nueva</a>
+<ul>
+    {% for cosa in cosas %}
+        <li>
+            <strong>{{ cosa.nombre }}</strong> - {{ cosa.descripcion }} - {{ cosa.involucrados }}
+            <a href="{% url 'editar_cosa' cosa.id %}">Editar</a>
+            <a href="{% url 'eliminar_cosa' cosa.id %}">Eliminar</a>
+        </li>
+    {% empty %}
+        <li>No hay cosas registradas.</li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'main' %}">Volver</a>
